@@ -1,0 +1,896 @@
+:何宜勳的英倫紳士風個人名片網頁-更新版:index.html
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>何宜勳 Yi-Xun He | 您的英倫紳士保險顧問</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        british: {
+                            navy: '#0B1B3D',      /* 皇家深藍 */
+                            gold: '#D4AF37',      /* 復古霧金 */
+                            goldlight: '#F3E5AB', /* 奶油絲絨白 */
+                            charcoal: '#1A1A1A',  /* 煙燻曜石黑 */
+                            leather: '#8B5A2B',   /* 琥珀皮革棕 */
+                            cream: '#FAF6F0'      /* 英式奶油白背景 */
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'Noto Serif TC', 'serif'],
+                        sans: ['Noto Sans TC', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-border {
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #0B1B3D 0%, #112856 100%);
+        }
+        .vintage-vignette {
+            box-shadow: inset 0 0 80px rgba(0,0,0,0.6);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-british-cream text-british-charcoal font-sans selection:bg-british-gold selection:text-british-navy overflow-x-hidden">
+
+    <nav class="sticky top-0 z-50 bg-british-navy/95 backdrop-blur-md text-white border-b border-british-gold/20 py-4 px-6 md:px-12 transition-all duration-300">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="#" class="font-serif text-xl md:text-2xl tracking-widest text-british-gold flex items-center gap-2">
+                <span class="border border-british-gold px-2 py-0.5 rounded">H</span>
+                <span class="text-sm md:text-base font-light text-white tracking-normal font-sans ml-1">何宜勳 | 紳士理財學</span>
+            </a>
+            <div class="hidden md:flex space-x-8 text-sm tracking-wider">
+                <a href="#about" class="hover:text-british-gold transition-colors duration-300">關於宜勳</a>
+                <a href="#profession" class="hover:text-british-gold transition-colors duration-300">專業版圖</a>
+                <a href="#quiz" class="hover:text-british-gold transition-colors duration-300">保障自測</a>
+                <a href="#contact" class="hover:text-british-gold transition-colors duration-300">紳士會客室</a>
+            </div>
+            <a href="#contact" class="border border-british-gold hover:bg-british-gold hover:text-british-navy text-british-gold text-xs uppercase tracking-widest py-2 px-4 transition-all duration-300 rounded">
+                預約諮詢
+            </a>
+        </div>
+    </nav>
+
+    <section class="relative min-h-[90vh] flex items-center justify-center py-16 px-6 md:px-12 gold-gradient-bg text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-5 pointer-events-none bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+            
+            <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-british-gold/10 border border-british-gold/30 text-british-gold text-xs tracking-widest uppercase">
+                    <i data-lucide="shield-check" class="w-4 h-4"></i> 富邦保險專業規劃 • 誠信守護
+                </div>
+                <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight tracking-wide">
+                    以紳士的細緻，<br class="hidden md:inline">
+                    <span class="text-british-gold italic">編織您終身的防護網</span>
+                </h1>
+                <p class="text-gray-300 text-base md:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed font-light">
+                    「紳士的定義，在於風雨來臨時，依然能為身後的人撐起一把無畏的傘。」<br>
+                    我是何宜勳，用處女座極致的責任感，守護您最珍視的家庭與未來。
+                </p>
+                
+                <div class="grid grid-cols-3 gap-4 max-w-md mx-auto lg:mx-0 pt-4">
+                    <div class="border-r border-british-gold/20 pr-4">
+                        <div class="font-serif text-2xl text-british-gold font-bold">3 個</div>
+                        <div class="text-xs text-gray-400">寶貝孩子 (最懂家長的心)</div>
+                    </div>
+                    <div class="border-r border-british-gold/20 px-4">
+                        <div class="font-serif text-2xl text-british-gold font-bold">1988</div>
+                        <div class="text-xs text-gray-400">處女座細節思維</div>
+                    </div>
+                    <div class="pl-4">
+                        <div class="font-serif text-2xl text-british-gold font-bold">O 型</div>
+                        <div class="text-xs text-gray-400">開朗與高凝聚力</div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-6">
+                    <a href="#quiz" class="bg-british-gold hover:bg-white text-british-navy font-medium tracking-wider px-8 py-4 transition-all duration-300 flex items-center justify-center gap-2 rounded shadow-lg shadow-black/20">
+                        <i data-lucide="sparkles" class="w-5 h-5"></i> 紳士防護力自測
+                    </a>
+                    <a href="#about" class="border border-white/30 hover:border-british-gold hover:text-british-gold text-white font-medium tracking-wider px-8 py-4 transition-all duration-300 flex items-center justify-center gap-2 rounded">
+                        深入了解宜勳
+                    </a>
+                </div>
+            </div>
+
+            <div class="lg:col-span-5 flex flex-col items-center">
+                <div class="relative w-full max-w-sm aspect-[4/5] bg-british-charcoal rounded-lg p-4 shadow-2xl border border-british-gold/40 flex flex-col justify-between">
+                    <div class="flex justify-between items-center text-xs text-british-gold/60 font-serif border-b border-british-gold/20 pb-2">
+                        <span>EST. 1988 / TAIPEI</span>
+                        <span class="flex items-center gap-1"><i data-lucide="crown" class="w-3.5 h-3.5"></i> PREMIUM</span>
+                    </div>
+
+                    <div class="relative flex-1 my-4 bg-zinc-800 rounded overflow-hidden flex flex-col items-center justify-center border border-zinc-700 group cursor-pointer" id="photoFrame" onclick="triggerPhotoUpload()">
+                        <div id="photoPlaceholder" class="text-center p-6 space-y-4">
+                            <div class="w-20 h-20 mx-auto rounded-full bg-british-navy/80 border border-british-gold/40 flex items-center justify-center text-british-gold">
+                                <i data-lucide="user" class="w-10 h-10"></i>
+                            </div>
+                            <div class="space-y-1">
+                                <p class="text-sm font-medium text-british-gold">上傳宜勳坐在木馬上的帥照</p>
+                                <p class="text-xs text-gray-400">點擊此處或拖曳照片至相框內</p>
+                            </div>
+                        </div>
+                        
+                        <input type="file" id="photoInput" class="hidden" accept="image/*" onchange="handlePhotoUpload(event)">
+                        <img id="uploadedPhoto" class="hidden w-full h-full object-cover transition-all duration-500" alt="何宜勳">
+                        <div id="filterOverlay" class="absolute inset-0 pointer-events-none transition-all duration-300"></div>
+                        
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-white text-xs">
+                            <span class="bg-british-navy/80 border border-british-gold/50 px-3 py-1.5 rounded flex items-center gap-1">
+                                <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i> 更換照片
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <p class="text-[11px] text-center text-gray-400 tracking-wider">紳士照片風格濾鏡</p>
+                        <div class="grid grid-cols-3 gap-2">
+                            <button onclick="applyFilter('classic', event)" class="filter-btn active text-xs py-1 px-2 rounded border border-british-gold bg-british-gold text-british-navy transition-all duration-300 font-medium">
+                                經典原色
+                            </button>
+                            <button onclick="applyFilter('vintage', event)" class="filter-btn text-xs py-1 px-2 rounded border border-zinc-700 bg-zinc-900 text-gray-300 hover:border-british-gold/50 transition-all duration-300">
+                                英倫復古
+                            </button>
+                            <button onclick="applyFilter('noir', event)" class="filter-btn text-xs py-1 px-2 rounded border border-zinc-700 bg-zinc-900 text-gray-300 hover:border-british-gold/50 transition-all duration-300">
+                                紳士黑白
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 md:px-12 bg-white scroll-mt-16">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-british-gold font-serif text-lg italic tracking-widest block mb-2">The Gentlemen's Chronicle</span>
+                <h2 class="text-3xl md:text-4xl font-serif tracking-wider font-bold text-british-navy">關於紳士 • 宜勳的溫暖底線</h2>
+                <div class="w-16 h-0.5 bg-british-gold mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-british-cream rounded-lg p-8 border border-british-gold/20 hover:border-british-gold transition-all duration-500 hover:-translate-y-2 group shadow-sm flex flex-col justify-between min-h-[350px]">
+                    <div class="space-y-6">
+                        <div class="w-12 h-12 rounded bg-british-navy flex items-center justify-center text-british-gold group-hover:scale-110 transition-transform duration-300">
+                            <i data-lucide="compass" class="w-6 h-6"></i>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="text-xs text-british-gold font-semibold uppercase tracking-wider">1988.08.29 Born</div>
+                            <h3 class="text-xl font-serif text-british-navy font-bold">處女座的條理，O 型的熱誠</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            處女座天生帶有「細節控」的基因，在保險規劃中，任何一個條款、一分保障的遺漏都是宜勳不能接受的。再搭配 O 型血天生具備的開朗活力、包容力與強大領袖氣質，讓每一次保險諮詢都不再冰冷，而是如同老友重逢般的深度對談。
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-british-gold/10 flex items-center justify-between text-xs text-british-gold font-semibold">
+                        <span>精密思維 • 全心承擔</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </div>
+                </div>
+
+                <div class="bg-british-cream rounded-lg p-8 border border-british-gold/20 hover:border-british-gold transition-all duration-500 hover:-translate-y-2 group shadow-sm flex flex-col justify-between min-h-[350px]">
+                    <div class="space-y-6">
+                        <div class="w-12 h-12 rounded bg-british-navy flex items-center justify-center text-british-gold group-hover:scale-110 transition-transform duration-300">
+                            <i data-lucide="heart" class="w-6 h-6"></i>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="text-xs text-british-gold font-semibold uppercase tracking-wider">Father of Three</div>
+                            <h3 class="text-xl font-serif text-british-navy font-bold">身為三寶爸，我懂什麼叫「天塌不下來」</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            身為 1988 年後新一代的三寶父親，三個活潑健康的孩子是宜勳人生的核心動力。他常說：「正因為我自己每天都在經歷育兒的酸甜苦辣，我比誰都明白做家長最想給孩子的安全感是什麼。我規劃的每一份保單，都是以保障這個家庭、保護孩子能平安長大為起點。」
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-british-gold/10 flex items-center justify-between text-xs text-british-gold font-semibold">
+                        <span>家庭守護 • 同理至上</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </div>
+                </div>
+
+                <div class="bg-british-cream rounded-lg p-8 border border-british-gold/20 hover:border-british-gold transition-all duration-500 hover:-translate-y-2 group shadow-sm flex flex-col justify-between min-h-[350px]">
+                    <div class="space-y-6">
+                        <div class="w-12 h-12 rounded bg-british-navy flex items-center justify-center text-british-gold group-hover:scale-110 transition-transform duration-300">
+                            <i data-lucide="award" class="w-6 h-6"></i>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="text-xs text-british-gold font-semibold uppercase tracking-wider">Fubon Insurance</div>
+                            <h3 class="text-xl font-serif text-british-navy font-bold">強大富邦集團，全方位堅實後盾</h3>
+                        </div>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            結合富邦最齊全、最穩健的保險金融資源，宜勳能為您提供從「人身壽險」、「醫療實支實付」、「意外防護」到「財產產險」的一站式極致規劃。站在巨人的肩膀上，我們給您的承諾是，當意外不期而遇，您一定會得到最快速、最尊榮的協助。
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-british-gold/10 flex items-center justify-between text-xs text-british-gold font-semibold">
+                        <span>富邦人壽與產險專業雙引擎</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-16 bg-british-navy text-white rounded-xl p-8 md:p-12 border border-british-gold/40 relative overflow-hidden">
+                <div class="absolute right-0 bottom-0 opacity-10 pointer-events-none transform translate-y-1/4 translate-x-1/4">
+                    <i data-lucide="quote" class="w-64 h-64 text-british-gold"></i>
+                </div>
+                <div class="relative z-10 max-w-3xl space-y-6">
+                    <h3 class="text-british-gold font-serif text-xl md:text-2xl italic">"保險，是在風和日麗時，為暴風雨寫下的優雅防線。"</h3>
+                    <p class="text-gray-300 leading-relaxed font-light text-sm md:text-base">
+                        很多人覺得保險合約很複雜，甚至帶有防備。但對宜勳來說，我們買保險，不是因為有人會離開，而是因為有我們愛的人需要留下來、需要好好生活。這是我作為一個父親、一個丈夫、也是一個紳士理財顧問，最溫柔的堅持。
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <span class="w-8 h-px bg-british-gold"></span>
+                        <span class="font-serif text-sm text-british-gold uppercase tracking-wider">何宜勳 Yi-Xun He</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="profession" class="py-24 px-6 md:px-12 bg-british-cream border-t border-british-gold/20 scroll-mt-16">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-british-gold font-serif text-lg italic tracking-widest block mb-2">Our Expertise & Integrity</span>
+                <h2 class="text-3xl md:text-4xl font-serif tracking-wider font-bold text-british-navy">宜勳的富邦全方位規劃版圖</h2>
+                <div class="w-16 h-0.5 bg-british-gold mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                
+                <div class="lg:col-span-4 flex flex-col gap-3">
+                    <button onclick="switchProfession('life', event)" class="prof-tab active text-left p-5 rounded border border-british-gold bg-british-navy text-white transition-all duration-300 group flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <i data-lucide="shield" class="w-5 h-5 text-british-gold"></i>
+                            <div>
+                                <h4 class="font-bold text-sm">家庭人身保障</h4>
+                                <p class="text-xs text-british-gold/80 mt-1">留愛不留債的終極防護</p>
+                            </div>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4 text-british-gold transition-transform group-hover:translate-x-1"></i>
+                    </button>
+
+                    <button onclick="switchProfession('medical', event)" class="prof-tab text-left p-5 rounded border border-british-gold/10 bg-white hover:border-british-gold/40 transition-all duration-300 group flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <i data-lucide="heart-pulse" class="w-5 h-5 text-gray-500 group-hover:text-british-gold"></i>
+                            <div>
+                                <h4 class="font-bold text-sm text-british-navy">醫療尊榮防護</h4>
+                                <p class="text-xs text-gray-400 mt-1">應對未知醫療與科技防禦</p>
+                            </div>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-1"></i>
+                    </button>
+
+                    <button onclick="switchProfession('property', event)" class="prof-tab text-left p-5 rounded border border-british-gold/10 bg-white hover:border-british-gold/40 transition-all duration-300 group flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <i data-lucide="home" class="w-5 h-5 text-gray-500 group-hover:text-british-gold"></i>
+                            <div>
+                                <h4 class="font-bold text-sm text-british-navy">財產安全防線</h4>
+                                <p class="text-xs text-gray-400 mt-1">汽機車、住宅等產險規劃</p>
+                            </div>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-1"></i>
+                    </button>
+
+                    <button onclick="switchProfession('succession', event)" class="prof-tab text-left p-5 rounded border border-british-gold/10 bg-white hover:border-british-gold/40 transition-all duration-300 group flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <i data-lucide="landmark" class="w-5 h-5 text-gray-500 group-hover:text-british-gold"></i>
+                            <div>
+                                <h4 class="font-bold text-sm text-british-navy">資產與傳承配置</h4>
+                                <p class="text-xs text-gray-400 mt-1">高資產族群稅務與代代相傳</p>
+                            </div>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-1"></i>
+                    </button>
+                </div>
+
+                <div class="lg:col-span-8 bg-white rounded-lg p-8 md:p-10 border border-british-gold/20 shadow-lg min-h-[420px] flex flex-col justify-between" id="professionDetailBox">
+                    <div class="space-y-6" id="profContent">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-2xl font-serif text-british-navy font-bold flex items-center gap-2">
+                                <i data-lucide="shield" class="text-british-gold w-6 h-6"></i> 家庭人身保障
+                            </h3>
+                            <span class="text-xs bg-british-gold/10 text-british-gold border border-british-gold/30 px-3 py-1 rounded-full">核心必修課</span>
+                        </div>
+                        <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                            「家庭的收入支柱，就像是撐起整座城堡的梁柱。」<br>
+                            宜勳專注於為家中的經濟核心、剛起步的年輕家庭進行人身壽險與定期防護規劃。我們不推銷高額不實的保單，而是根據您的年收入、房貸、孩子教育金，精密計算出「最適化」的壽險額度。當風雨突然來襲，這份保額將化作最堅實的承諾，替您繼續守護家人。
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+                            <div class="flex items-start gap-2.5">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-british-gold shrink-0 mt-0.5"></i>
+                                <div>
+                                    <h5 class="text-sm font-bold text-british-navy">量身訂製保額估算</h5>
+                                    <p class="text-xs text-gray-500 mt-0.5">根據負債與家庭開支，確保不花冤枉錢</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-2.5">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-british-gold shrink-0 mt-0.5"></i>
+                                <div>
+                                    <h5 class="text-sm font-bold text-british-navy">雙層槓桿防護</h5>
+                                    <p class="text-xs text-gray-500 mt-0.5">巧妙結合定期與終身險，兼顧高保障與預算</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-8 border-t border-british-gold/15 flex flex-col sm:flex-row justify-between items-center gap-4 mt-8">
+                        <div class="text-xs text-gray-400">
+                            * 本項目採用富邦最新核保條款，提供最即時安心的保障服務。
+                        </div>
+                        <a href="#contact" class="w-full sm:w-auto text-center bg-british-navy hover:bg-british-gold text-white hover:text-british-navy text-xs tracking-widest uppercase font-bold py-3 px-6 rounded transition-all duration-300">
+                            與宜勳預約此規劃
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="quiz" class="py-24 px-6 md:px-12 bg-british-navy text-white relative scroll-mt-16">
+        <div class="absolute inset-0 opacity-10 pointer-events-none bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        <div class="max-w-4xl mx-auto relative z-10">
+            
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-british-gold font-serif text-lg italic tracking-widest block mb-2">The Gentleman's Assessment</span>
+                <h2 class="text-3xl md:text-4xl font-serif tracking-wider font-bold text-white">紳士保障需求微測驗</h2>
+                <p class="text-gray-300 text-xs md:text-sm mt-3">花一分鐘，檢測您與家人的防護指數，獲取宜勳客製化專業回饋</p>
+                <div class="w-16 h-0.5 bg-british-gold mx-auto mt-4"></div>
+            </div>
+
+            <div class="bg-white/5 backdrop-blur-md rounded-xl p-6 md:p-10 border border-british-gold/30 shadow-2xl" id="quizContainer">
+                
+                <div class="w-full bg-white/10 h-1.5 rounded-full mb-8 relative">
+                    <div id="quizProgress" class="bg-british-gold h-full rounded-full transition-all duration-500" style="width: 33%"></div>
+                    <div id="quizStepText" class="absolute right-0 -top-6 text-[10px] text-british-gold tracking-widest">問題 1 / 3</div>
+                </div>
+
+                <div id="question1" class="quiz-step space-y-6">
+                    <h3 class="text-xl md:text-2xl font-serif text-white tracking-wide flex items-center gap-2">
+                        <span class="text-british-gold font-bold">01.</span> 您目前最掛心或最想要守護的事物是？
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+                        <button onclick="selectOption(1, 'A', event)" class="quiz-opt-btn text-left p-4 rounded border border-white/20 hover:border-british-gold bg-white/5 hover:bg-white/10 transition-all duration-300 group">
+                            <span class="block text-british-gold text-xs tracking-widest font-mono mb-1">A 方案</span>
+                            <span class="font-bold text-sm block">親愛的家人與年幼的孩子</span>
+                        </button>
+                        <button onclick="selectOption(1, 'B', event)" class="quiz-opt-btn text-left p-4 rounded border border-white/20 hover:border-british-gold bg-white/5 hover:bg-white/10 transition-all duration-300 group">
+                            <span class="block text-british-gold text-xs tracking-widest font-mono mb-1">B 方案</span>
+                            <span class="font-bold text-sm block">自己的退休與高科技醫療</span>
+                        </button>
+                        <button onclick="selectOption(1, 'C', event)" class="quiz-opt-btn text-left p-4 rounded border border-white/20 hover:border-british-gold bg-white/5 hover:bg-white/10 transition-all duration-300 group">
+                            <span class="block text-british-gold text-xs tracking-widest font-mono mb-1">C 方案</span>
+                            <span class="font-bold text-sm block">辛苦積攢的資產與代代相傳</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="question2" class="quiz-step hidden space-y-6">
+                    <h3 class="text-xl md:text-2xl font-serif text-white tracking-wide flex items-center gap-2">
+                        <span class="text-british-gold font-bold">02.</span> 面對突如其來的重大變故（如意外或重疾），您的家庭防備儲蓄足夠支撐多久？
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+                        <button onclick="selectOption(2, 'A', event)" class="quiz-opt-btn text-left p-4 rounded border border-white/20 hover:border-british-gold bg-white/5 hover:bg-white/10 transition-all duration-300 group">
+                            <span class="block text-british-gold text-xs tracking-widest font-mono mb-1">安全期較短</span>
+                            <span class="font-bold text-sm block">3 個月以內</span>
+                        </button>
+                        <button onclick="selectOption(2, 'B', event)" class="quiz-opt-btn text-left p-4 rounded border border-white/20 hover:border-british-gold bg-white/5 hover:bg-white/10 transition-all duration-300 group">
+                            <span class="block text-british-gold text-xs tracking-widest font-mono mb-1">常態安全期</span>
+                            <span class="font-bold text-sm block">半年至 1 年</span>
+                        </button>
+                        <button onclick="selectOption(2, 'C', event)" class="quiz-opt-btn text-left p-4 rounded border border-white/20 hover:border-british-gold bg-white/5 hover:bg-white/10 transition-all duration-300 group">
+                            <span class="block text-british-gold text-xs tracking-widest font-mono mb-1">高安全期</span>
+                            <span class="font-bold text-sm block">2 年以上 / 不成問題</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="question3" class="quiz-step hidden space-y-6">
+                    <h3 class="text-xl md:text-2xl font-serif text-white tracking-wide flex items-center gap-2">
+                        <span class="text-british-gold font-bold">03.</span> 目前除了勞保公保，您是否擁有「商業實支實付醫療險」或「重大傷病險」？
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+                        <button onclick="selectOption(3, 'A', event)" class="quiz-opt-btn text-left p-4 rounded border border-white/20 hover:border-british-gold bg-white/5 hover:bg-white/10 transition-all duration-300 group">
+                            <span class="block text-british-gold text-xs tracking-widest font-mono mb-1">基本配備</span>
+                            <span class="font-bold text-sm block">完全沒有商業險</span>
+                        </button>
+                        <button onclick="selectOption(3, 'B', event)" class="quiz-opt-btn text-left p-4 rounded border border-white/20 hover:border-british-gold bg-white/5 hover:bg-white/10 transition-all duration-300 group">
+                            <span class="block text-british-gold text-xs tracking-widest font-mono mb-1">有但不確定</span>
+                            <span class="font-bold text-sm block">有，但久未健診/不確定內容</span>
+                        </button>
+                        <button onclick="selectOption(3, 'C', event)" class="quiz-opt-btn text-left p-4 rounded border border-white/20 hover:border-british-gold bg-white/5 hover:bg-white/10 transition-all duration-300 group">
+                            <span class="block text-british-gold text-xs tracking-widest font-mono mb-1">完備防護</span>
+                            <span class="font-bold text-sm block">保障完備，且定期更新</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="quizResult" class="quiz-step hidden space-y-8">
+                    <div class="text-center space-y-3">
+                        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-british-gold/20 border-2 border-british-gold text-british-gold animate-pulse mb-2">
+                            <i data-lucide="shield-alert" class="w-8 h-8" id="resultIcon"></i>
+                        </div>
+                        <h3 class="text-2xl font-serif text-white font-bold" id="resultTitle">分析完成！您的家庭安全感評估中</h3>
+                        <p class="text-british-gold text-sm font-medium tracking-widest" id="resultScore">安全係數：★★★☆☆</p>
+                    </div>
+
+                    <div class="bg-white/5 border border-white/10 p-6 rounded-lg space-y-4">
+                        <h4 class="font-bold text-base text-british-gold flex items-center gap-2">
+                            <i data-lucide="message-square" class="w-5 h-5"></i> 宜勳的三寶爸暖心叮嚀：
+                        </h4>
+                        <p class="text-gray-300 text-sm leading-relaxed" id="resultFeedback">
+                            正在為您精算專屬回饋...
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <button onclick="resetQuiz()" class="border border-white/30 hover:border-white text-white text-xs tracking-widest uppercase py-3.5 px-6 rounded transition-all duration-300">
+                            重新測驗
+                        </button>
+                        <a href="#contact" class="bg-british-gold hover:bg-white text-british-navy text-center text-xs tracking-widest uppercase font-bold py-3.5 px-8 rounded transition-all duration-300 shadow-lg">
+                            與宜勳預約一盞熱茶的免費解析
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-6 md:px-12 bg-white scroll-mt-16">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                
+                <div class="lg:col-span-5 space-y-8">
+                    <span class="text-british-gold font-serif text-lg italic tracking-widest block mb-2">Schedule an Afternoon Tea</span>
+                    <h2 class="text-3xl md:text-4xl font-serif tracking-wider font-bold text-british-navy">預約一杯英式下午茶的時間</h2>
+                    <p class="text-gray-600 text-sm md:text-base leading-relaxed font-light">
+                        保險規劃不該是充滿推銷壓力的推拉。宜勳邀請您，用一盞熱茶的時光，聊聊您的人生夢想、家庭責任，以及心中最掛心的那一塊。不論最後是否成交，我們都將為您提供最誠摯的建議，這是一份紳士的承諾。
+                    </p>
+
+                    <div class="bg-british-cream p-6 rounded-lg border border-british-gold/30 space-y-4">
+                        <h4 class="font-serif text-british-navy font-bold text-lg border-b border-british-gold/20 pb-2">聯絡何宜勳 (Yi-Xun He)</h4>
+                        
+                        <div class="space-y-3 text-sm text-gray-700">
+                            <div class="flex items-center gap-3">
+                                <i data-lucide="mail" class="w-4 h-4 text-british-gold"></i>
+                                <span>yixun.fubon@gmail.com (模擬)</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i data-lucide="phone" class="w-4 h-4 text-british-gold"></i>
+                                <span>0912-345-678 (模擬)</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i data-lucide="map-pin" class="w-4 h-4 text-british-gold"></i>
+                                <span>富邦人壽/產險 服務中心 (全台皆可服務)</span>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3 pt-2">
+                            <a href="#" class="w-10 h-10 rounded bg-british-navy text-british-gold hover:bg-british-gold hover:text-british-navy transition-colors duration-300 flex items-center justify-center">
+                                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded bg-british-navy text-british-gold hover:bg-british-gold hover:text-british-navy transition-colors duration-300 flex items-center justify-center">
+                                <i data-lucide="instagram" class="w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 bg-british-cream rounded-xl p-8 border border-british-gold/30 shadow-xl relative">
+                    <h3 class="text-xl font-serif text-british-navy font-bold mb-6 flex items-center gap-2">
+                        <i data-lucide="clipboard-list" class="w-5 h-5 text-british-gold"></i> 遞交預約諮詢函
+                    </h3>
+
+                    <form id="contactForm" onsubmit="submitContactForm(event)" class="space-y-5 relative z-10">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="space-y-1.5">
+                                <label class="text-xs text-british-navy font-bold uppercase tracking-widest block">尊稱您的姓名</label>
+                                <input type="text" required id="formName" placeholder="例如：林先生 / 尊名" class="w-full bg-white border border-british-gold/20 focus:border-british-gold p-3 rounded text-sm text-british-navy focus:outline-none text-british-navy">
+                            </div>
+                            <div class="space-y-1.5">
+                                <label class="text-xs text-british-navy font-bold uppercase tracking-widest block">聯絡電話</label>
+                                <input type="tel" required id="formPhone" placeholder="例如：0912-345678" class="w-full bg-white border border-british-gold/20 focus:border-british-gold p-3 rounded text-sm text-british-navy focus:outline-none">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="space-y-1.5">
+                                <label class="text-xs text-british-navy font-bold uppercase tracking-widest block">電子信箱</label>
+                                <input type="email" required id="formEmail" placeholder="yours@example.com" class="w-full bg-white border border-british-gold/20 focus:border-british-gold p-3 rounded text-sm text-british-navy focus:outline-none">
+                            </div>
+                            <div class="space-y-1.5">
+                                <label class="text-xs text-british-navy font-bold uppercase tracking-widest block">期望對談項目</label>
+                                <select id="formService" class="w-full bg-white border border-british-gold/20 focus:border-british-gold p-3 rounded text-sm text-british-navy focus:outline-none">
+                                    <option value="全方位防護自檢">家庭全方位保障規劃 (首選)</option>
+                                    <option value="實支實付醫療險">尊榮醫療與實支實付</option>
+                                    <option value="富邦產險諮詢">汽機車與住宅財產產險</option>
+                                    <option value="理財傳承與稅務">資產安全與二代承襲</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="space-y-1.5">
+                            <label class="text-xs text-british-navy font-bold uppercase tracking-widest block">您的家庭守護對象或特別留言（選填）</label>
+                            <textarea id="formMessage" rows="4" placeholder="例如：家有三個寶貝，想幫自己與另一半規劃實支實付..." class="w-full bg-white border border-british-gold/20 focus:border-british-gold p-3 rounded text-sm text-british-navy focus:outline-none"></textarea>
+                        </div>
+
+                        <div class="pt-2">
+                            <button type="submit" class="w-full bg-british-navy hover:bg-british-gold text-white hover:text-british-navy font-bold tracking-widest text-xs uppercase py-4 transition-all duration-300 rounded shadow-md flex items-center justify-center gap-2">
+                                <i data-lucide="send" class="w-4 h-4"></i> 送出我的紳士下午茶邀約
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-british-charcoal text-gray-400 py-12 px-6 md:px-12 border-t border-british-gold/10">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2">
+                <span class="border border-british-gold text-british-gold px-2 py-0.5 rounded font-serif text-lg">H</span>
+                <span class="text-sm font-light text-white font-serif tracking-widest">何宜勳 | 富邦保險理財專家</span>
+            </div>
+            
+            <p class="text-xs text-center md:text-right text-gray-500">
+                &copy; 2026 何宜勳 Yi-Xun He. 版權所有。由熱心好友特製設計與開發。<br>
+                聲明：本網站所提供之保險與金融資訊皆為模擬，實際規劃依富邦官方核定為準。
+            </p>
+        </div>
+    </footer>
+
+    <div id="invitationModal" class="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-6 opacity-0 pointer-events-none transition-all duration-300">
+        <div class="bg-british-cream rounded-lg p-8 md:p-10 border-2 border-british-gold max-w-lg w-full relative transform scale-95 transition-all duration-300" id="modalCard">
+            <button onclick="closeModal()" class="absolute right-4 top-4 text-british-navy hover:text-british-gold transition-colors">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+
+            <div class="border border-british-gold/30 p-6 space-y-6 text-center">
+                <span class="text-british-gold font-serif text-sm tracking-widest italic block">The Gentleman's Invitation</span>
+                <div class="w-16 h-16 rounded-full bg-british-navy flex items-center justify-center text-british-gold mx-auto">
+                    <i data-lucide="mail-open" class="w-8 h-8"></i>
+                </div>
+                <div class="space-y-2">
+                    <h4 class="font-serif text-british-navy font-bold text-xl md:text-2xl">致親愛的 <span id="modalClientName" class="text-british-gold underline">林先生</span></h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        您的下午茶預約諮詢函（主題：<span id="modalClientService" class="font-bold text-british-navy">全方位防護自檢</span>）已優雅投遞至宜勳的手中。
+                    </p>
+                </div>
+                <p class="text-xs text-gray-500 italic bg-white p-3 rounded border border-british-gold/10">
+                    「承諾，是紳士的第一件外衣。我將會在 24 小時內親自與您聯繫，為您端上最適合您家庭的溫暖防護建議。」— 何宜勳
+                </p>
+                <div class="pt-2">
+                    <button onclick="closeModal()" class="bg-british-navy hover:bg-british-gold text-white hover:text-british-navy text-xs tracking-widest uppercase font-bold py-3 px-8 rounded transition-all duration-300 w-full">
+                        優雅關閉
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        let currentFilter = 'classic';
+        let base64Photo = '';
+
+        function triggerPhotoUpload() {
+            document.getElementById('photoInput').click();
+        }
+
+        function handlePhotoUpload(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    base64Photo = e.target.result;
+                    const img = document.getElementById('uploadedPhoto');
+                    const placeholder = document.getElementById('photoPlaceholder');
+                    
+                    img.src = base64Photo;
+                    img.classList.remove('hidden');
+                    placeholder.classList.add('hidden');
+                    
+                    applyFilter(currentFilter);
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        function applyFilter(filterName, event) {
+            if (event) event.stopPropagation();
+            currentFilter = filterName;
+            
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('active', 'border-british-gold', 'bg-british-gold', 'text-british-navy');
+                btn.classList.add('border-zinc-700', 'bg-zinc-900', 'text-gray-300');
+            });
+
+            if (event) {
+                const clickedBtn = event.currentTarget;
+                clickedBtn.classList.add('active', 'border-british-gold', 'bg-british-gold', 'text-british-navy');
+                clickedBtn.classList.remove('border-zinc-700', 'bg-zinc-900', 'text-gray-300');
+            } else {
+                buttons.forEach(btn => {
+                    if (btn.innerText.includes(filterName === 'classic' ? '經典' : filterName === 'vintage' ? '英倫' : '黑白')) {
+                        btn.classList.add('active', 'border-british-gold', 'bg-british-gold', 'text-british-navy');
+                        btn.classList.remove('border-zinc-700', 'bg-zinc-900', 'text-gray-300');
+                    }
+                });
+            }
+
+            const img = document.getElementById('uploadedPhoto');
+            const overlay = document.getElementById('filterOverlay');
+
+            if (!img.classList.contains('hidden')) {
+                if (filterName === 'classic') {
+                    img.style.filter = 'none';
+                    overlay.style.backgroundColor = 'transparent';
+                } else if (filterName === 'vintage') {
+                    img.style.filter = 'sepia(0.35) contrast(1.1) brightness(0.95) saturate(0.85)';
+                    overlay.style.backgroundColor = 'rgba(212, 175, 55, 0.05)';
+                } else if (filterName === 'noir') {
+                    img.style.filter = 'grayscale(1) contrast(1.3) brightness(0.9)';
+                    overlay.style.backgroundColor = 'transparent';
+                }
+            }
+        }
+
+        // 專業版圖分頁
+        const professions = {
+            life: {
+                title: "家庭人身保障",
+                icon: "shield",
+                badge: "核心必修課",
+                desc: "「家庭的收入支柱，就像是撐起整座城堡的梁柱。」<br>宜勳專注於為家中的經濟核心、剛起步的年輕家庭進行人身壽險與定期防護規劃。我們不推銷高額不實的保單，而是根據您的年收入、房貸、孩子教育金，精密計算出「最適化」的壽險額度。當風雨突然來襲，這份保額將化作最堅實的承諾，替您繼續守護家人。",
+                points: [
+                    { title: "量身訂製保額估算", desc: "根據負債與家庭開支，確保不花冤枉錢" },
+                    { title: "雙層槓桿防護", desc: "巧妙結合定期與終身險，兼顧高保障與預算" }
+                ]
+            },
+            medical: {
+                title: "醫療尊榮防護",
+                icon: "heart-pulse",
+                badge: "品質守護",
+                desc: "「我們無法阻止意外發生，但我們能決定接受多優雅的醫療品質。」<br>現今達文西手術、各類昂貴免疫療法不斷問世，唯有配置完善的「實支實付醫療險」與「重大傷病險」，才能確保您在面對病痛時，不需在『最先進的自費藥物』與『辛苦攢下的家庭儲蓄』之間痛苦做選擇。宜勳替您守護尊嚴，保駕醫療旅程。",
+                points: [
+                    { title: "雙實支實付組合", desc: "涵蓋所有自費差額、雜費及高科技醫療開支" },
+                    { title: "重大傷病整筆給付", desc: "一旦確診即刻獲得大筆應急金，無後顧之憂" }
+                ]
+            },
+            property: {
+                title: "財產安全防線",
+                icon: "home",
+                badge: "生活全面防禦",
+                desc: "「紳士的生活，行止間皆優雅；身邊的資產，更需妥善周全。」<br>宜勳結合富邦產險最專業強勁的產品線，從每日相伴的愛車汽機車險、第三人責任超額責任險，到安居港灣的住宅火險、地震險、個人責任險。大至廠房，小至愛車碰撞，宜勳一站式代辦，讓財產損耗降到最低。",
+                points: [
+                    { title: "富邦產險超高理賠效率", desc: "全台網點最多，出險極速到場，紳士級管家服務" },
+                    { title: "第三人超額責任險(超跑險)", desc: "預防馬路意外，高額第三人賠償防備不可少" }
+                ]
+            },
+            succession: {
+                title: "資產與傳承配置",
+                icon: "landmark",
+                badge: "老錢家族傳承學",
+                desc: "「財富的累積需要智慧，而財富的優雅傳承，更需要頂級規劃。」<br>針對中小企業主、高資產高淨值家庭，宜勳提供深度保險節節稅、資產信託防護以及分期傳承配置規劃。利用保險金給付的獨特性與法定免稅彈性，讓創一代的智慧結晶與資產，百分之百、平穩和睦地流向下一代，免受高額遺產稅之侵蝕。",
+                points: [
+                    { title: "傳承規劃保單健檢", desc: "剖析家族稅務盲區，建立合規資產防火牆" },
+                    { title: "信託功能年金規劃", desc: "設定給付機制，保證二代不揮霍，家業綿延不絕" }
+                ]
+            }
+        };
+
+        function switchProfession(key, event) {
+            const tabs = document.querySelectorAll('.prof-tab');
+            tabs.forEach(tab => {
+                tab.className = "prof-tab text-left p-5 rounded border border-british-gold/10 bg-white hover:border-british-gold/40 transition-all duration-300 group flex items-center justify-between";
+                const h4 = tab.querySelector('h4');
+                const p = tab.querySelector('p');
+                const i_lucide = tab.querySelectorAll('i');
+                if (h4) h4.className = "font-bold text-sm text-british-navy";
+                if (p) p.className = "text-xs text-gray-400 mt-1";
+                if (i_lucide[0]) i_lucide[0].className = "w-5 h-5 text-gray-500 group-hover:text-british-gold";
+                if (i_lucide[1]) i_lucide[1].className = "w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-1";
+            });
+
+            const activeTab = event.currentTarget;
+            activeTab.className = "prof-tab active text-left p-5 rounded border border-british-gold bg-british-navy text-white transition-all duration-300 group flex items-center justify-between";
+            const h4 = activeTab.querySelector('h4');
+            const p = activeTab.querySelector('p');
+            const i_lucide = activeTab.querySelectorAll('i');
+            if (h4) h4.className = "font-bold text-sm text-white";
+            if (p) p.className = "text-xs text-british-gold/80 mt-1";
+            if (i_lucide[0]) i_lucide[0].className = "w-5 h-5 text-british-gold";
+            if (i_lucide[1]) i_lucide[1].className = "w-4 h-4 text-british-gold transition-transform group-hover:translate-x-1";
+
+            const data = professions[key];
+            const detailBox = document.getElementById('professionDetailBox');
+            
+            detailBox.style.opacity = '0';
+            detailBox.style.transform = 'translateY(10px)';
+            
+            setTimeout(() => {
+                document.getElementById('profContent').innerHTML = `
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-2xl font-serif text-british-navy font-bold flex items-center gap-2">
+                            <i data-lucide="${data.icon}" class="text-british-gold w-6 h-6"></i> ${data.title}
+                        </h3>
+                        <span class="text-xs bg-british-gold/10 text-british-gold border border-british-gold/30 px-3 py-1 rounded-full">${data.badge}</span>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                        ${data.desc}
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+                        <div class="flex items-start gap-2.5">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-british-gold shrink-0 mt-0.5"></i>
+                            <div>
+                                <h5 class="text-sm font-bold text-british-navy">${data.points[0].title}</h5>
+                                <p class="text-xs text-gray-500 mt-0.5">${data.points[0].desc}</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-2.5">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 text-british-gold shrink-0 mt-0.5"></i>
+                            <div>
+                                <h5 class="text-sm font-bold text-british-navy">${data.points[1].title}</h5>
+                                <p class="text-xs text-gray-500 mt-0.5">${data.points[1].desc}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                lucide.createIcons();
+                detailBox.style.opacity = '1';
+                detailBox.style.transform = 'none';
+            }, 200);
+        }
+
+        // 測驗邏輯
+        let currentStep = 1;
+        let answers = { q1: '', q2: '', q3: '' };
+
+        function selectOption(questionNum, optionVal, event) {
+            answers[`q${questionNum}`] = optionVal;
+            
+            const parent = event.currentTarget.parentNode;
+            const btns = parent.querySelectorAll('.quiz-opt-btn');
+            btns.forEach(btn => {
+                btn.classList.remove('border-british-gold', 'bg-white/10');
+                btn.classList.add('border-white/20', 'bg-white/5');
+            });
+            event.currentTarget.classList.add('border-british-gold', 'bg-white/10');
+            event.currentTarget.classList.remove('border-white/20', 'bg-white/5');
+
+            setTimeout(() => {
+                if (questionNum < 3) {
+                    document.getElementById(`question${questionNum}`).classList.add('hidden');
+                    currentStep++;
+                    document.getElementById(`question${currentStep}`).classList.remove('hidden');
+                    
+                    const progressPercent = currentStep === 2 ? 66 : 100;
+                    document.getElementById('quizProgress').style.width = `${progressPercent}%`;
+                    document.getElementById('quizStepText').innerText = `問題 ${currentStep} / 3`;
+                } else {
+                    calculateAndShowResult();
+                }
+            }, 400);
+        }
+
+        function calculateAndShowResult() {
+            document.getElementById('question3').classList.add('hidden');
+            document.getElementById('quizProgress').style.width = `100%`;
+            document.getElementById('quizStepText').innerText = `檢測結果`;
+            document.getElementById('quizResult').classList.remove('hidden');
+
+            const scoreTitle = document.getElementById('resultTitle');
+            const scoreText = document.getElementById('resultScore');
+            const feedbackText = document.getElementById('resultFeedback');
+            const icon = document.getElementById('resultIcon');
+
+            if (answers.q1 === 'A' && (answers.q2 === 'A' || answers.q3 === 'A')) {
+                icon.setAttribute('data-lucide', 'shield-alert');
+                scoreTitle.innerText = "警報！家庭核心防護防禦空虛";
+                scoreText.innerText = "安全係數：★☆☆☆☆ (極需防護)";
+                feedbackText.innerHTML = "身為三個孩子的爸爸，我非常理解您對家人的愛。但目前數據顯示，您正處於『高風險裸奔』狀態。一旦遭遇不可預知的健康或意外風波，家庭財務儲蓄可能很快見底。<strong>宜勳強烈建議：</strong>您目前最首要的任務，是幫自己（家庭支柱）配置最基本的實支實付醫療險與意外壽險，給家人一道兜底的保障。不需高預算，我們用最低預算組出最高槓桿！";
+            } else if (answers.q1 === 'B' && answers.q3 === 'B') {
+                icon.setAttribute('data-lucide', 'refresh-cw');
+                scoreTitle.innerText = "注意！舊保單可能無法抵禦現代高自費醫療";
+                scoreText.innerText = "安全係數：★★★☆☆ (需要優化)";
+                feedbackText.innerHTML = "您有良好的風險意識，並為自己做了部分防備。然而，醫療科技日新月異（如重子照射、自費昂貴標靶藥物），多年前買的舊醫療險可能早已無法完整理賠自費項目。<strong>宜勳溫馨提醒：</strong>是時候把舊保單拿出來做一次深度『健檢』了。我會免費協助您比對現行健保制度，找出保障缺口，用最少經費升級您的醫療防火牆！";
+            } else if (answers.q1 === 'C' && answers.q2 === 'C') {
+                icon.setAttribute('data-lucide', 'crown');
+                scoreTitle.innerText = "尊榮！進入資產保值與合理避險階段";
+                scoreText.innerText = "安全係數：★★★★★ (著重資產保全)";
+                feedbackText.innerHTML = "您具備極佳的財富與風險配置。目前的資產安全度非常高，您的目光應放在如何抵禦通膨、合理優化稅務、確保辛苦打拼的家業在將來能『毫無折損且安穩地』交接給您愛的人。<strong>宜勳的專業提議：</strong>利用富邦的資產傳承與分期給付信託化保單，能確保這份愛代代傳遞，也防止後輩不當揮霍。這是一門精準優雅的紳士傳承藝術，期待與您對談。";
+            } else {
+                icon.setAttribute('data-lucide', 'shield-check');
+                scoreTitle.innerText = "常規安全！有防備心但可更加完美";
+                scoreText.innerText = "安全係數：★★★☆☆ (可查漏補缺)";
+                feedbackText.innerHTML = "您擁有不錯的家庭保護盾，對意外與醫療風險也有一定概念。不過，家庭責任隨時間而變動（如房貸減少、孩子長大），保險也應該是一份活生生的動態合約，適時微調。<strong>宜勳建議：</strong>讓我們做一次保單的系統比對，確認沒有重疊浪費的保費，將省下來的錢挪去做更有效益的退休年金或是增額壽險配置，讓防禦更加滴水不漏。";
+            }
+            lucide.createIcons();
+        }
+
+        function resetQuiz() {
+            currentStep = 1;
+            answers = { q1: '', q2: '', q3: '' };
+            document.getElementById('quizResult').classList.add('hidden');
+            document.getElementById('question1').classList.remove('hidden');
+            document.getElementById('quizProgress').style.width = `33%`;
+            document.getElementById('quizStepText').innerText = `問題 1 / 3`;
+            const optBtns = document.querySelectorAll('.quiz-opt-btn');
+            optBtns.forEach(btn => {
+                btn.classList.remove('border-british-gold', 'bg-white/10');
+                btn.classList.add('border-white/20', 'bg-white/5');
+            });
+        }
+
+        // 表單提交
+        function submitContactForm(event) {
+            event.preventDefault();
+            const name = document.getElementById('formName').value;
+            const service = document.getElementById('formService').value;
+            
+            document.getElementById('modalClientName').innerText = name;
+            document.getElementById('modalClientService').innerText = service;
+
+            const modal = document.getElementById('invitationModal');
+            const card = document.getElementById('modalCard');
+            
+            modal.classList.remove('opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                card.classList.remove('scale-95');
+            }, 50);
+
+            document.getElementById('contactForm').reset();
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('invitationModal');
+            const card = document.getElementById('modalCard');
+            card.classList.add('scale-95');
+            setTimeout(() => {
+                modal.classList.add('opacity-0', 'pointer-events-none');
+            }, 200);
+        }
+    </script>
+</body>
+</html>
+
+
+---
+
+### 📝 本次主要修正內容：
+* **1988 生日標記**：相框頂部的細緻金屬鋼印字樣更新為 `EST. 1988`，快捷指標區、關於我卡片的出生年份也同步完成修正。
+* **O 型紳士特質**：主畫面快捷區與第一張人格特質卡片，文案已重寫為 **「O 型的熱誠、包容力與高度凝聚力」**。原本處女座追求極致完美的理性，加上 O 型血大氣、溫暖且擅長照顧人的強大特質，更能彰顯他身為保險專家與「三寶老爸」那種天塌下來有他撐著的厚實信任感。
+
+快去測試看看，如果有其他文案想微調，隨時跟我說！
